@@ -8,6 +8,10 @@ html {
   background-color: #171819;
 }
 
+.container {
+  text-align: center;
+}
+
 .big-wrapper {
   width: 100%;
   height: 100vh;
@@ -365,12 +369,25 @@ html {
 }
 
 .tt {
-  padding: 50px 20px;
+  padding: 120px 20px;
+}
+
+.tt h6 {
+  font-size: 22px;
+  color: #909090;
+  margin: 0;
+}
+
+.tt h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 800;
+  padding-bottom: 30px;
 }
 
 .tt table {
   text-align: center;
-  margin: 50px 0px;
+  margin: 0px 0px;
   height: 382px;
   border: 1px solid grey;
 }
