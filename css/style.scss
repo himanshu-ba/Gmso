@@ -1,0 +1,717 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    
+    background-color: #171819;
+}
+
+
+.big-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/hero-bg-1.jpg");
+    background-size: cover;
+    background-position: center top;
+    
+}
+
+
+
+
+#my-navigation{
+    
+    color: #fff;
+    background: none;
+    border: 0;
+    position: relative;
+    top: 10px;
+    
+
+
+    .navbar-header{
+
+        button{
+            background: none;
+            border: 0;
+
+            .icon-bar{
+                background-color: orangered;
+                width: 30px;
+                margin: 6px 0;
+                position: relative;
+                top: -10px;
+
+            }
+
+        }
+
+    }
+    
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .navbar-brand:hover{
+        color: orangered;
+        transition: all 0.3s ease-in-out 0.1s;
+    }
+
+    
+
+
+    a{
+        color: #fff;
+        font-size: 15px;
+        
+    }
+
+    a:hover{
+        color: orangered;
+        transition: all 0.3s ease-in-out 0.1s;
+
+    }
+
+
+    
+
+    span:hover{
+        color: orangered;
+        transition: all 0.3s ease-in-out 0.1s;
+
+    }
+
+    ul{
+        li{
+            .orange{
+                color: orangered;
+            }            
+        }
+
+        span{
+            font-size: 20px;
+            padding: 15px 10px;
+        }
+       
+    }
+
+}
+
+
+// B A N N E R
+
+.banner{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+
+
+    p{
+        font-size: 25px;
+        color: grey;
+    }
+
+    h1{
+        color: #fff;
+        font-weight: 700;
+        margin: 27px 0;
+        font-size: 47px;
+        line-height: 70px;
+    }
+
+    a{
+        color: #fff;
+        margin-right: 20px;
+    }
+
+    button{
+        background: none;
+        padding: 15px 30px;
+        border: 1px solid orangered;
+        color: orangered;
+    }
+
+    button:hover{
+        background-color: #fff;
+    }
+
+    
+}
+
+.info{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px 50px;
+    
+    
+    
+    
+
+    .new{
+        padding: 20px 50px;
+        
+        
+
+        h1{
+            color: #fff;
+            font-weight: 800;
+        }
+
+        h4{
+            color: #fff;
+            padding: 30px 0px;
+            
+            font-weight: 500;
+        }
+
+        p{
+            color: #666262;
+            font-size: 19px;
+
+        }
+        a{
+            font-size: 18px;
+            color: #404040;
+        }
+
+        button{
+            color: #fff;
+            font-weight: 500;
+            background-color: orangered;
+            border: 1px solid orangered;
+            border-radius: 2px;
+            margin-top: 16px;
+            padding: 14px 24px;
+            text-align: center;
+        }
+        button:hover{
+            background-color: #fff;
+            color: orangered;
+            transition: all 0.3s ease-in-out 0.1s;
+
+        }
+
+    }
+
+    .working-hours{
+        
+        padding: 20px 90px;
+        border-style: solid;
+        border-width: 0px 0px 0px 1px;
+        color: rgb(39, 39, 39);
+
+        h1{
+            color: #fff;
+            font-weight: 600;
+        }
+
+        p{
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        span{
+            color: #666262;
+        }
+
+    }
+}
+
+
+// ABOUT US
+
+.instructor{
+    background-color: #f9f9f9;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .about{
+        margin: 0;
+        padding: 100px 0px;
+        background-color: #f9f9f9;
+        color: #212529;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .hello{
+
+        padding: 20px 50px;
+
+        h2{
+            font-weight: 700;
+            font-size: 38px;
+            padding-top: 20px;
+        }
+
+        p{
+            color: #666262;
+            font-size: 19px;
+        }
+
+        a{
+            text-decoration: none;
+            color: #404040;
+            font-weight: 600;
+        }
+
+        a:hover{
+            color: orangered;
+            transition: all 0.3s ease-in-out 0.1s;
+
+        }
+    }
+
+    .coach{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+
+        
+    }
+
+    .pic{
+        width: 45%;
+        margin: 0 auto;
+        border: 1px solid #f3ecec;
+        border-radius: 2px;
+        padding: 0;
+        
+        background-color: rgb(240, 240, 240);
+
+
+        img{
+            width: 100%;
+        }
+
+        .team-info{
+
+            padding: 10px 20px;
+
+            h3{
+                font-weight: 700;  
+            }
+
+            p{
+                font-size: 16px;
+            }
+
+            a{
+                color: #666262;
+                text-decoration: none;
+                font-size: 25px;
+            }
+
+            a:hover{
+                color: orangered;
+                transition: all 0.3s ease-in-out 0.1s;
+    
+            }
+        }
+  
+    }
+}  
+
+
+// C L A S S E S
+
+
+.classes{
+    
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+    .class{
+        
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 112px 0px;
+
+        .head{
+            text-align: center;
+            p{
+                font-size: 20px;
+            }
+
+            h2{
+                font-weight: 800;
+            }
+        }
+
+        .photo{
+
+            background-color: rgb(240, 240, 240);
+            margin-top: 40px;
+            padding: 0;
+            width: 32%;
+        
+            img{
+                width: 100%;
+            }
+
+            
+
+            .class-info{
+                padding: 20px;
+
+                h3{
+                    font-weight: 800;
+                    font-size: 30px;
+                }
+
+                b{
+                    font-size: 17px;
+                    color: #666262;
+                }
+                span{
+                    font-size: 17px;
+                    color: #171819;
+                }
+
+                p{
+                    font-size:20px ;
+                    padding:20px 0 ;
+                }
+
+            }
+        }
+    }
+
+    
+}
+
+
+//  T A B L E 
+
+.tt{
+
+    
+
+    padding: 50px 20px;
+
+
+    table{
+        text-align: center;
+        margin: 50px 0px;
+        height: 382px;
+        border: 1px solid grey;
+
+        th{
+            color: #fff;
+            text-align: center;
+            background-color: orangered;
+            margin: 16px;
+        }
+    
+        strong{
+            color: #fff;
+            padding: 30px 0px;
+        }
+    
+        td{
+            color: #666262;   
+                     
+        }
+
+        .grey{
+            border: 1px solid #212529;
+        }
+
+        .color{
+            background-color: orangered;
+            color: #fff;
+            border: 1px solid #212529;   
+        }
+    }
+    
+}
+
+
+
+
+// F O O T E R
+
+
+.footer{
+    
+    
+    padding: 112px 0px;
+    
+    .form{
+
+        
+        padding: 0 30px;
+
+        form{
+
+            padding-left: 50px;
+            
+    
+            h2{
+                padding: 20px 0px;
+                font-weight: 900;
+                font-size: 32px;
+            }
+    
+            
+            .form-group{
+                padding: 5px 0px;
+        
+                input{
+                    padding: 30px 12px;
+                    border-radius: 1px;
+                }
+        
+                textarea{
+                    padding: 100px o;
+                }
+        
+               
+            }
+    
+            button{
+                background-color: black;
+                padding: 20px;
+                color: #fff;
+            }
+        }
+    
+        .map{
+            padding: 20px 70px ;
+    
+            h2{
+                
+                font-weight: 800;
+                font-size: 32px;
+            }
+            
+            p{
+                color: #666262;
+                font-size: 20px;
+                padding: 30px 0;
+                border-bottom: 1px solid #dadada;
+    
+                span{
+                    color: orangered;
+                }
+            }
+
+            button{
+                border: none;
+            }
+    
+            iframe{
+                margin-top: 28px;
+                
+            }
+        }
+    }
+   
+        
+    
+
+    
+    
+}
+
+
+footer{
+    border-top: 1px solid #dadada;
+    padding: 50px 0;
+
+    .right{
+        text-align: center;
+
+        a{
+            text-decoration: none;
+            color: #404040;
+            font-size: 20px;
+
+           
+        }
+
+        span{
+            color: orangered;
+        }
+
+        p{
+            font-size: 20px;
+        }
+        
+    }
+
+    .left{
+        font-size: 20px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:992px) {
+
+  
+
+    .banner{
+        position: relative;
+        top: 100px;
+
+        h1{
+            font-size: 25px;
+            line-height: none
+            ;
+        }
+    }
+
+    
+    .info{
+        padding: 90px 0px;
+
+
+        .new{
+        padding: 20px 0px;
+        }
+
+        .working-hours{
+            border: 0px solid #171819;
+            padding: 20px 0px;
+
+        }   
+    }
+
+    
+
+    
+
+
+    .instructor{
+
+        .about{
+            .hello{
+                padding: 20px 0px;
+            }
+        }
+        .pic{
+            width: 100%;
+            margin-top: 30px;
+        }
+    }
+
+    table{
+        width: 10% ;
+    }
+
+    .classes{
+        .class{
+            .photo{
+                width: 100%;
+            }
+        }
+    }
+
+    .footer{
+
+        .form{
+            padding: 0px;
+
+            form{
+                padding: 0;
+            }
+            
+            .map{
+                padding: 0px 0px;
+            }
+        }
+
+    }
+
+    footer{
+
+        .right{
+            margin-top: 30px;
+        }
+
+        .left{
+            text-align: center;
+        }
+    }
+
+
+
+
+    
+
+   
+   
+
+  
+
+   
+    
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .banner{
+        position: relative;
+        top: 100px;
+
+        p{
+            font-size: 20px;
+        }
+
+        h1{
+            font-size: 25px;
+            line-height: none;
+            
+        }
+    }
+
+
+  
+
+}
+
+
+
+
+
+    
+
+    
+

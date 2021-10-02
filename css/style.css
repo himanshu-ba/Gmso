@@ -1,0 +1,558 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  background-color: #171819;
+}
+
+.big-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/hero-bg-1.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+
+#my-navigation {
+  color: #fff;
+  background: none;
+  border: 0;
+  position: relative;
+  top: 10px;
+}
+
+#my-navigation .navbar-header button {
+  background: none;
+  border: 0;
+}
+
+#my-navigation .navbar-header button .icon-bar {
+  background-color: orangered;
+  width: 30px;
+  margin: 6px 0;
+  position: relative;
+  top: -10px;
+}
+
+#my-navigation .navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#my-navigation .navbar-brand:hover {
+  color: orangered;
+  -webkit-transition: all 0.3s ease-in-out 0.1s;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+#my-navigation a {
+  color: #fff;
+  font-size: 15px;
+}
+
+#my-navigation a:hover {
+  color: orangered;
+  -webkit-transition: all 0.3s ease-in-out 0.1s;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+#my-navigation span:hover {
+  color: orangered;
+  -webkit-transition: all 0.3s ease-in-out 0.1s;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+#my-navigation ul li .orange {
+  color: orangered;
+}
+
+#my-navigation ul span {
+  font-size: 20px;
+  padding: 15px 10px;
+}
+
+.banner {
+  text-align: center;
+  position: relative;
+  top: 300px;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.banner p {
+  font-size: 25px;
+  color: grey;
+}
+
+.banner h1 {
+  color: #fff;
+  font-weight: 700;
+  margin: 27px 0;
+  font-size: 47px;
+  line-height: 70px;
+}
+
+.banner a {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.banner button {
+  background: none;
+  padding: 15px 30px;
+  border: 1px solid orangered;
+  color: orangered;
+}
+
+.banner button:hover {
+  background-color: #fff;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 90px 50px;
+}
+
+.info .new {
+  padding: 20px 50px;
+}
+
+.info .new h1 {
+  color: #fff;
+  font-weight: 800;
+}
+
+.info .new h4 {
+  color: #fff;
+  padding: 30px 0px;
+  font-weight: 500;
+}
+
+.info .new p {
+  color: #666262;
+  font-size: 19px;
+}
+
+.info .new a {
+  font-size: 18px;
+  color: #404040;
+}
+
+.info .new button {
+  color: #fff;
+  font-weight: 500;
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 2px;
+  margin-top: 16px;
+  padding: 14px 24px;
+  text-align: center;
+}
+
+.info .new button:hover {
+  background-color: #fff;
+  color: orangered;
+  -webkit-transition: all 0.3s ease-in-out 0.1s;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.info .working-hours {
+  padding: 20px 90px;
+  border-style: solid;
+  border-width: 0px 0px 0px 1px;
+  color: #272727;
+}
+
+.info .working-hours h1 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.info .working-hours p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.info .working-hours span {
+  color: #666262;
+}
+
+.instructor {
+  background-color: #f9f9f9;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.instructor .about {
+  margin: 0;
+  padding: 100px 0px;
+  background-color: #f9f9f9;
+  color: #212529;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.instructor .hello {
+  padding: 20px 50px;
+}
+
+.instructor .hello h2 {
+  font-weight: 700;
+  font-size: 38px;
+  padding-top: 20px;
+}
+
+.instructor .hello p {
+  color: #666262;
+  font-size: 19px;
+}
+
+.instructor .hello a {
+  text-decoration: none;
+  color: #404040;
+  font-weight: 600;
+}
+
+.instructor .hello a:hover {
+  color: orangered;
+  -webkit-transition: all 0.3s ease-in-out 0.1s;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.instructor .coach {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.instructor .pic {
+  width: 45%;
+  margin: 0 auto;
+  border: 1px solid #f3ecec;
+  border-radius: 2px;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.instructor .pic img {
+  width: 100%;
+}
+
+.instructor .pic .team-info {
+  padding: 10px 20px;
+}
+
+.instructor .pic .team-info h3 {
+  font-weight: 700;
+}
+
+.instructor .pic .team-info p {
+  font-size: 16px;
+}
+
+.instructor .pic .team-info a {
+  color: #666262;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.instructor .pic .team-info a:hover {
+  color: orangered;
+  -webkit-transition: all 0.3s ease-in-out 0.1s;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.classes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.classes .class {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 112px 0px;
+}
+
+.classes .class .head {
+  text-align: center;
+}
+
+.classes .class .head p {
+  font-size: 20px;
+}
+
+.classes .class .head h2 {
+  font-weight: 800;
+}
+
+.classes .class .photo {
+  background-color: #f0f0f0;
+  margin-top: 40px;
+  padding: 0;
+  width: 32%;
+}
+
+.classes .class .photo img {
+  width: 100%;
+}
+
+.classes .class .photo .class-info {
+  padding: 20px;
+}
+
+.classes .class .photo .class-info h3 {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.classes .class .photo .class-info b {
+  font-size: 17px;
+  color: #666262;
+}
+
+.classes .class .photo .class-info span {
+  font-size: 17px;
+  color: #171819;
+}
+
+.classes .class .photo .class-info p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.tt {
+  padding: 50px 20px;
+}
+
+.tt table {
+  text-align: center;
+  margin: 50px 0px;
+  height: 382px;
+  border: 1px solid grey;
+}
+
+.tt table th {
+  color: #fff;
+  text-align: center;
+  background-color: orangered;
+  margin: 16px;
+}
+
+.tt table strong {
+  color: #fff;
+  padding: 30px 0px;
+}
+
+.tt table td {
+  color: #666262;
+}
+
+.tt table .grey {
+  border: 1px solid #212529;
+}
+
+.tt table .color {
+  background-color: orangered;
+  color: #fff;
+  border: 1px solid #212529;
+}
+
+.footer {
+  padding: 112px 0px;
+}
+
+.footer .form {
+  padding: 0 30px;
+}
+
+.footer .form form {
+  padding-left: 50px;
+}
+
+.footer .form form h2 {
+  padding: 20px 0px;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.footer .form form .form-group {
+  padding: 5px 0px;
+}
+
+.footer .form form .form-group input {
+  padding: 30px 12px;
+  border-radius: 1px;
+}
+
+.footer .form form .form-group textarea {
+  padding: 100px o;
+}
+
+.footer .form form button {
+  background-color: black;
+  padding: 20px;
+  color: #fff;
+}
+
+.footer .form .map {
+  padding: 20px 70px;
+}
+
+.footer .form .map h2 {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.footer .form .map p {
+  color: #666262;
+  font-size: 20px;
+  padding: 30px 0;
+  border-bottom: 1px solid #dadada;
+}
+
+.footer .form .map p span {
+  color: orangered;
+}
+
+.footer .form .map button {
+  border: none;
+}
+
+.footer .form .map iframe {
+  margin-top: 28px;
+}
+
+footer {
+  border-top: 1px solid #dadada;
+  padding: 50px 0;
+}
+
+footer .right {
+  text-align: center;
+}
+
+footer .right a {
+  text-decoration: none;
+  color: #404040;
+  font-size: 20px;
+}
+
+footer .right span {
+  color: orangered;
+}
+
+footer .right p {
+  font-size: 20px;
+}
+
+footer .left {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .banner {
+    position: relative;
+    top: 100px;
+  }
+  .banner h1 {
+    font-size: 25px;
+    line-height: none;
+  }
+  .info {
+    padding: 90px 0px;
+  }
+  .info .new {
+    padding: 20px 0px;
+  }
+  .info .working-hours {
+    border: 0px solid #171819;
+    padding: 20px 0px;
+  }
+  .instructor .about .hello {
+    padding: 20px 0px;
+  }
+  .instructor .pic {
+    width: 100%;
+    margin-top: 30px;
+  }
+  table {
+    width: 10%;
+  }
+  .classes .class .photo {
+    width: 100%;
+  }
+  .footer .form {
+    padding: 0px;
+  }
+  .footer .form form {
+    padding: 0;
+  }
+  .footer .form .map {
+    padding: 0px 0px;
+  }
+  footer .right {
+    margin-top: 30px;
+  }
+  footer .left {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    position: relative;
+    top: 100px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+  .banner h1 {
+    font-size: 25px;
+    line-height: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
